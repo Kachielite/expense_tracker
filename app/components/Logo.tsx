@@ -17,4 +17,20 @@ const Logo = () => {
     );
 };
 
-export default Logo;
+
+const LogoMobile = () => {
+    return (
+        <Link
+            href="/"
+            className="flex items-center gap-2"
+        >
+            <p
+                className="bg-gradient-to-r from-amber-400 to-orange-500 bg-clip-text text-transparent font-bold text-xl leading-tight -tracking-tighter"
+            >
+                ExpenseTracker
+            </p>
+        </Link>
+    );
+};
+
+export {Logo, LogoMobile};
