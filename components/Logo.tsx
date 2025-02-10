@@ -4,7 +4,7 @@ import Link from "next/link";
 const Logo = () => {
     return (
         <Link
-            href="/"
+            href="/public"
             className="flex items-center gap-2"
         >
             <PiggyBank className="stroke h-11 w-11 stroke-amber-500 stroke-[1.5]"/>
@@ -21,7 +21,7 @@ const Logo = () => {
 const LogoMobile = () => {
     return (
         <Link
-            href="/"
+            href="/public"
             className="flex items-center gap-2"
         >
             <p

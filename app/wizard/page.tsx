@@ -5,7 +5,7 @@ import {Separator} from "@/components/ui/separator";
 import {Card, CardContent, CardDescription, CardHeader, CardTitle} from "@/components/ui/card";
 import {Button} from "@/components/ui/button";
 import Link from "next/link";
-import {Logo} from "@/app/components/Logo";
+import {Logo} from "@/components/Logo";
 import {CurrencyComboBox} from "@/components/CurrenyComboBox";
 
 

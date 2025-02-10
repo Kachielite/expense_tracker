@@ -8,7 +8,7 @@ import {ThemeSwitchButton} from "@/components/ThemeSwitcherButton";
 import {useState} from "react";
 import {Sheet, SheetContent, SheetTrigger, SheetTitle, SheetDescription, SheetHeader} from "@/components/ui/sheet";
 import {Menu} from "lucide-react";
-import {LogoMobile, Logo} from "@/app/components/Logo";
+import {LogoMobile, Logo} from "@/components/Logo";
 
 export default function Navbar(){
     return (
